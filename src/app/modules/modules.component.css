@@ -1,0 +1,54 @@
+:host {
+  top: 3rem;
+  position: relative;
+}
+.modules {
+  padding: 20px 10%;
+  height: calc(100% - 3rem);
+}
+.modules .options {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin: 40px 0;
+  list-style-type: none;
+}
+
+.options > li {
+  display: block;
+  background: #fff;
+  padding: 15px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.options > li .heading > h3 {
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.options > li .heading > label {
+  font-weight: 400;
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.options > li .actions {
+  margin: 20px 0 0 0;
+}
+
+.options > li .actions > button {
+  border: none;
+  background: none;
+  color: #111;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.options > li .actions > button:hover {
+  background: #eee;
+}

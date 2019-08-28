@@ -1,0 +1,9 @@
+:host {
+  top: 3rem;
+  position: relative;
+}
+
+.modules {
+  padding: 20px 10%;
+  height: calc(100% - 3rem);
+}
